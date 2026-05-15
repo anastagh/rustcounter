@@ -134,7 +134,7 @@ The module is implemented as a Linux miscellaneous character device using the Ru
 ## Demo
 
 Successful module load and device interaction inside Ubuntu VM:
-<img width="648" height="108" alt="Captura de pantalla 2026-05-15 a la(s) 11 42 56 a m" src="https://github.com/user-attachments/assets/066e6f98-a051-471d-ad0d-eabe7bd46b37" />
+![rustcounter demo](demo.png)
 
 ## License
 
