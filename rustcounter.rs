@@ -95,9 +95,3 @@ impl MiscDevice for RustCounterDevice {
         Ok(written)
     }
 }
-
-impl Drop for RustCounter {
-    fn drop(&mut self) {
-        pr_info!("rustcounter unloaded\n");
-    }
-}
