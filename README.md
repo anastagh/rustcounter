@@ -1,5 +1,7 @@
 # rustcounter — Atomic Counter Linux Kernel Module
 
+Created by Anastasía Glaros Hach for Operating Systems / Rust-for-Linux kernel module exploration.
+
 rustcounter is a Rust Linux kernel module that exposes an atomic counter through `/dev/rustcounter`. Every write to the device increments the counter, and every read returns the current value.
 
 This project demonstrates safe concurrent kernel programming in Rust using `AtomicU64`, preventing data races and lost updates without requiring mutex locks.
